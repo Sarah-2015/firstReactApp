@@ -1,0 +1,32 @@
+.line {
+    width: 100%;
+    max-width: 7rem;
+    height: 0.25rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    border-color: #2c3e50 !important;
+}
+.item {
+    position: relative;
+    cursor: pointer;
+}
+
+.item .layer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #1abc9cc4;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.item:hover .layer{
+    opacity: 1;
+
+}
+ 
